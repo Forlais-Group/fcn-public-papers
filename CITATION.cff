@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this public paper pack, please cite it using the metadata below."
+title: "Forlais Compression Notation Public Papers: BF16 Trained-Weight Compression Evidence Pack"
+authors:
+  - family-names: Cooper
+    given-names: Oliver
+    orcid: "https://orcid.org/0009-0005-5798-827X"
+    affiliation: "Forlais Group Ltd"
+version: "1.0-public"
+date-released: "2026-06-27"
+license: "CC-BY-4.0"
+abstract: "A curated public release of selected Forlais Compression Notation papers on BF16 trained-weight lossless compression, the 1.52x entropy ceiling, Benford-derived mantissa structure, mutual-information limits, component decomposition, public compressor behaviour, and public-safe transforms."
+keywords:
+  - lossless compression
+  - neural network weights
+  - BF16
+  - trained weights
+  - entropy
+  - source coding
+  - Forlais Compression Notation
+repository-code: "https://github.com/forlaisgroup/fcn-public-papers"
+url: "https://forlais.com"
