@@ -20,5 +20,6 @@ keywords:
 license: "CC-BY-4.0"
 version: "1.0-public"
 date-released: "2026-06-27"
+doi: "10.5281/zenodo.20961807"
 repository-code: "https://github.com/Forlais-Group/fcn-public-papers"
-url: "https://github.com/Forlais-Group/fcn-public-papers/releases/tag/v1.0-public"
+url: "https://doi.org/10.5281/zenodo.20961807"

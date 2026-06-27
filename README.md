@@ -10,6 +10,7 @@ Version: v1.0-public
 Author: Oliver Cooper, Forlais Group Ltd  
 ORCID: 0009-0005-5798-827X  
 Archive target: GitHub release archived to Zenodo  
+DOI: https://doi.org/10.5281/zenodo.20961807  
 Licence: CC BY 4.0
 
 ## Paper Set
