@@ -1,0 +1,9 @@
+022f765c79ef3c865008b0e27d07abb7b650a1384d9fed83dbb5c0b65595f5b3  papers/01-fcn-compression-theorem-trained-weights.pdf
+3ca575e4a930a6b672e2d744b24288bd16c6244fc7968fc41a833d7559827df9  papers/02-fcn-bf16-1-52-entropy-ceiling.pdf
+e3b81bda2f7c1f2d213266d3acfe2748dbbadf54093c51a9bd76350f1e1e807d  papers/03-fcn-benford-origin-bf16-compression-ceiling.pdf
+0b93a3123e46f2d2095e45cf8fe7fe812e52bb945138663a8ed5fc59fcf22f63  papers/04-fcn-mutual-information-paradox-bf16.pdf
+d9acb0ac650322a481c049e9a0e4df3e8e815189452f0de65114068fee16b8e7  papers/05-fcn-three-component-decomposition-bf16.pdf
+73afc54573cbafb56638fcafbe1004e5ca7a79ed7ae9a27a24e0ff1e5b5568a2  papers/06-fcn-r2-law-mantissa-bias.pdf
+437862a7107403245314a6f6e08c3ccc1ecfe73b742e6186ddee09939fe30714  papers/07-fcn-r2-prior-negative-result.pdf
+d561300bbcc14848345d7ef2d355a0bcdbc6e88beae9b89510a4e47cd6a593c0  papers/08-fcn-public-compressor-comparison-bf16.pdf
+47db971cc7406bd79ec9989e817d014fc42b7efb9a76f327b37bfee6d092afda  papers/09-fcn-aligned-byte-compression-bf16.pdf

@@ -1,0 +1,10 @@
+order,filename,title,paper_ref,release_status
+1,01-fcn-compression-theorem-trained-weights.pdf,The Compression Theorem for Trained Neural Network Weights,FCN-C22-X000-V-COMP-THEOREM,public
+2,02-fcn-bf16-1-52-entropy-ceiling.pdf,BF16 1.52x Entropy Ceiling,FCN-C22-X152-V-ENTROPY-CEILING,public
+3,03-fcn-benford-origin-bf16-compression-ceiling.pdf,Benford's Law as the Origin of the BF16 Compression Ceiling,FCN-C22-X152-V-BENFORD-THEORY,public
+4,04-fcn-mutual-information-paradox-bf16.pdf,The Mutual-Information Paradox in BF16 Weight Streams,FCN-C22-X000-V-MI-PARADOX,public
+5,05-fcn-three-component-decomposition-bf16.pdf,Three-Component Decomposition of BF16 Weight Values,FCN-C06-X000-V-THREE-COMPONENT,public
+6,06-fcn-r2-law-mantissa-bias.pdf,The r = 2 Law of Mantissa-Bit Bias in Trained Neural Weights,FCN-C22-X000-V-R2-LAW,public
+7,07-fcn-r2-prior-negative-result.pdf,A Closed-Form r=2 Prior for Mantissa Bits and Why Seeding an Adaptive Coder With It Yields No Practical Gain,FCN-C24-X152-V-R2-FORMULA,public
+8,08-fcn-public-compressor-comparison-bf16.pdf,A Wide Comparison of Public Lossless Compressors on BF16 Model Weights,FCN-C23-X000-V-MEGA-TEST,public
+9,09-fcn-aligned-byte-compression-bf16.pdf,Aligned Byte Compression of BF16 Weights,FCN-C02-X148-V-ALIGNED,public

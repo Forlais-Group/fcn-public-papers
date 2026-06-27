@@ -1,0 +1,29 @@
+{
+  "title": "Forlais Compression Notation Public Papers: BF16 Trained-Weight Compression Evidence Pack",
+  "upload_type": "publication",
+  "publication_type": "other",
+  "description": "A curated public release of selected Forlais Compression Notation papers on BF16 trained-weight lossless compression, the 1.52x entropy ceiling, Benford-derived mantissa structure, mutual-information limits, component decomposition, public compressor behaviour, and public-safe transforms. The release excludes non-public source logs, operational code, model weights, hidden benchmark mechanics, and operational procedures.",
+  "creators": [
+    {
+      "name": "Cooper, Oliver",
+      "affiliation": "Forlais Group Ltd",
+      "orcid": "0009-0005-5798-827X"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "version": "1.0-public",
+  "keywords": [
+    "lossless compression",
+    "neural network weights",
+    "BF16",
+    "trained weights",
+    "entropy",
+    "Benford's Law",
+    "mutual information",
+    "source coding",
+    "Forlais Compression Notation",
+    "Forlais"
+  ],
+  "notes": "This release is a public paper pack. Non-public source logs, operational code, non-public datasets, model weights, hidden benchmark mechanics, and operational procedures are not included."
+}

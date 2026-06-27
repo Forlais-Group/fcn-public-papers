@@ -1,0 +1,121 @@
+{
+  "release": "v1.0-public",
+  "date": "2026-06-27",
+  "title": "Forlais Compression Notation Public Papers",
+  "state": "upload-ready",
+  "doi": null,
+  "doi_status": "assigned by Zenodo after archive",
+  "repository": "https://github.com/forlaisgroup/fcn-public-papers",
+  "release_gate": {
+    "current_blocker": "none",
+    "required_before_publication": [
+      "Confirm every PDF has Status Public Release.",
+      "Confirm every PDF has Classification Public.",
+      "Confirm every PDF has Disclosure status Approved for public release.",
+      "Confirm every PDF has Release channel GitHub + Zenodo.",
+      "Confirm every PDF has Publication target GitHub + Zenodo public archive.",
+      "Confirm metadata/SHA256SUMS.txt matches the final PDFs."
+    ]
+  },
+  "papers": [
+    {
+      "order": 1,
+      "expected_filename": "01-fcn-compression-theorem-trained-weights.pdf",
+      "title": "The Compression Theorem for Trained Neural Network Weights",
+      "paper_ref": "FCN-C22-X000-V-COMP-THEOREM",
+      "source_id": "fcn-c22-x000-v-comp-theorem",
+      "status": "Selected for public release",
+      "release_status": "Public-release PDF rebuilt and checked",
+      "reason": "The theorem sets the source-coding boundary for every single-source BF16 result in the pack."
+    },
+    {
+      "order": 2,
+      "expected_filename": "02-fcn-bf16-1-52-entropy-ceiling.pdf",
+      "title": "BF16 1.52x Entropy Ceiling",
+      "paper_ref": "FCN-C22-X152-V-ENTROPY-CEILING",
+      "source_id": "fcn-c22-x152-v-entropy-wall",
+      "status": "Selected for public release",
+      "release_status": "Public-release PDF rebuilt and checked",
+      "reason": "Core release result. Establishes the 1.52x single-model BF16 ceiling."
+    },
+    {
+      "order": 3,
+      "expected_filename": "03-fcn-benford-origin-bf16-compression-ceiling.pdf",
+      "title": "Benford's Law as the Origin of the BF16 Compression Ceiling",
+      "paper_ref": "FCN-C22-X152-V-BENFORD-THEORY",
+      "source_id": "fcn-c22-x152-v-benford-theory",
+      "status": "Selected for public release",
+      "release_status": "Public-release PDF rebuilt and checked",
+      "reason": "Explains the mantissa entropy mechanism behind the ceiling and gives the closed-form origin."
+    },
+    {
+      "order": 4,
+      "expected_filename": "04-fcn-mutual-information-paradox-bf16.pdf",
+      "title": "The Mutual-Information Paradox in BF16 Weight Streams",
+      "paper_ref": "FCN-C22-X000-V-MI-PARADOX",
+      "source_id": "fcn-c22-x000-v-mi-paradox",
+      "status": "Selected for public release",
+      "release_status": "Public-release PDF rebuilt and checked",
+      "reason": "Core mutual-information result. Resolves the apparent 2.4-bit value-space MI into a small and mostly unexploitable signal."
+    },
+    {
+      "order": 5,
+      "expected_filename": "05-fcn-three-component-decomposition-bf16.pdf",
+      "title": "Three-Component Decomposition of BF16 Weight Values",
+      "paper_ref": "FCN-C06-X000-V-THREE-COMPONENT",
+      "source_id": "fcn-c06-x000-v-three-component",
+      "status": "Selected for public release",
+      "release_status": "Public-release PDF rebuilt and checked",
+      "reason": "Shows sign exponent and mantissa as the near-independent decomposition used by the ceiling papers."
+    },
+    {
+      "order": 6,
+      "expected_filename": "06-fcn-r2-law-mantissa-bias.pdf",
+      "title": "The r=2 Law of Mantissa-Bit Bias in Trained Neural Weights",
+      "paper_ref": "FCN-C22-X000-V-R2-LAW",
+      "source_id": "fcn-c22-x000-v-r2-law",
+      "status": "Selected for public release",
+      "release_status": "Public-release PDF rebuilt and checked",
+      "reason": "Provides the mantissa-bias law that supports the Benford-derived ceiling."
+    },
+    {
+      "order": 7,
+      "expected_filename": "07-fcn-r2-prior-negative-result.pdf",
+      "title": "A Closed-Form r=2 Prior for Mantissa Bits and Why Seeding an Adaptive Coder With It Yields No Practical Gain",
+      "paper_ref": "FCN-C24-X152-V-R2-FORMULA",
+      "source_id": "fcn-c24-x152-v-r2-formula",
+      "status": "Selected for public release",
+      "release_status": "Public-release PDF rebuilt and checked",
+      "reason": "Safe negative result. Shows the correct prior does not materially improve adaptive coding."
+    },
+    {
+      "order": 8,
+      "expected_filename": "08-fcn-public-compressor-comparison-bf16.pdf",
+      "title": "A Wide Comparison of Public Lossless Compressors on BF16 Model Weights",
+      "paper_ref": "FCN-C23-X000-V-MEGA-TEST",
+      "source_id": "fcn-c23-x000-v-mega-test",
+      "status": "Selected for public release",
+      "release_status": "Public-release PDF rebuilt and checked",
+      "reason": "Public-compressor envelope demonstrating that mature public configurations cluster below the ceiling."
+    },
+    {
+      "order": 9,
+      "expected_filename": "09-fcn-aligned-byte-compression-bf16.pdf",
+      "title": "Aligned Byte Compression of BF16 Weights",
+      "paper_ref": "FCN-C02-X148-V-ALIGNED",
+      "source_id": "fcn-c02-x148-v-aligned",
+      "status": "Selected for public release",
+      "release_status": "Public-release PDF rebuilt and checked",
+      "reason": "Simple public-safe transform baseline with a modest verified ratio."
+    }
+  ],
+  "excluded_categories": [
+    "FCN-C04 cross-model delta family",
+    "Dimensional Alignment / Dimensional Dilution",
+    "Content-Addressable Tensor Deduplication",
+    "Unique Value Encoding / Value Dedup",
+    "Fixed-Width Dictionary Coding for BF16 Weights",
+    "Grok INT8 statistical-signature note",
+    "Synthesis papers that depend on unreleased adjacent entries"
+  ]
+}
